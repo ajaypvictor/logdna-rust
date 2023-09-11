@@ -23,11 +23,11 @@ pin-project = "1"
 
 #http
 http = "0.2"
-hyper = { version = "0.14", features = ["client", "tcp", "http2"] }
+hyper = { version = "0.14", features = ["client", "tcp", "http1"] }
 
 #tls
 rustls = "0.20"
-hyper-rustls = { version = "0.23", features = ["http2", "logging"] }
+hyper-rustls = { version = "0.23", features = ["http1", "logging"] }
 
 #utils
 log = "0.4"
