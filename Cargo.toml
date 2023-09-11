@@ -27,6 +27,7 @@ hyper = { version = "0.14", features = ["client", "tcp", "http1"] }
 
 #tls
 rustls = "0.20"
+rustls-native-certs = "0.5"
 hyper-rustls = { version = "0.23", features = ["http1", "logging"] }
 
 #utils
