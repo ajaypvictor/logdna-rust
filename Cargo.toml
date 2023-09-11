@@ -26,7 +26,7 @@ pin-project = "1"
 #tls
 rustls = "0.19"
 rustls-native-certs = "0.5"
-hyper-rustls = "0.22"
+hyper-rustls = "0.23"
 
 #utils
 log = "0.4"
